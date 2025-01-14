@@ -13,7 +13,7 @@ This project focuses on analyzing sales performance and developing an ETL (Extra
 - **Visualizations**: Created dashboards and charts to present key metrics and trends.
 
 ## Dataset
-The dataset used contains the following key columns:
+Following key columns were used from Superstore sales dataset:
 - **Sales**: Revenue generated from product sales.
 - **Quantity**: Number of units sold.
 - **Discount**: Percentage discount applied to sales.
@@ -44,9 +44,17 @@ The dataset used contains the following key columns:
    - Created cascading slicers for interactive filtering by region, state, and city.
 
 ## Insights Gained
-- Regions contributing the most to overall sales and profits were identified.
+- Overall Performance of the store
+   ![overall_performance](overall_performance.png)
+
+- Regions contributing the most to overall sales and profits were identified along with regions having high sales but low-profit-margin.
+   ![Regional Insights](regional_insights.png )
+
 - Categories and subcategories with the highest and lowest profitability were highlighted.
-- High sales but low-profit-margin regions and products were pinpointed for further investigation.
+   ![product_category_analysis](product_category_analysis.png)
+  
+- Top best selling products were pinpointed for further investigation.
+   ![product_analysis](product_analysis.png)
 
 ## Tools and Technologies
 - **Power Query**: For building the ETL pipeline.
