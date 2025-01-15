@@ -1,26 +1,37 @@
 # Sales Data Analysis and ETL Pipeline Development
 
-This project focuses on analyzing sales performance and developing an ETL (Extract, Transform, Load) pipeline to preprocess and analyze sales data effectively. The goal is to derive actionable insights related to overall performance, regional contributions, and product trends.
+This project focuses on analyzing sales performance and developing an ETL (Extract, Transform, Load) pipeline to preprocess and analyze sales data effectively. The goal is to derive actionable insights related to overall performance, regional contributions, product trends, customer behaviour and order patterns.
 
 ## Overview
 
 ### Key Features:
+
 - **ETL Pipeline**: Built using Power Query to clean, preprocess, and transform raw sales data for analysis.
-- **Sales Analysis**:
+
+- **Objectives of Sales Analysis**:
   - Total sales, profit, and profit margin trends over time (yearly and monthly).
   - Regional insights, including top-performing regions and those with low profit margins.
-  - Product analysis to identify the most and least profitable categories, subcategories, and top 10 best-selling products by sales volume and revenue.
+  - Product analysis to identify the most and least profitable categories, subcategories,
+  - Top 10 best-selling products by sales volume and revenue.
+  - Customer segment analysis to determine the highest revenue-generating segment based on timeline, category, and subcategory.
+  - Order trends throughout the year based on different timelines.
+  - Shipping mode popularity and its impact on profit margins, categorized by region and product category.
+
 - **Visualizations**: Created dashboards and charts to present key metrics and trends.
 
 ## Dataset
-Following key columns were used from Superstore sales dataset:
-- **Sales**: Revenue generated from product sales.
-- **Quantity**: Number of units sold.
-- **Discount**: Percentage discount applied to sales.
-- **Profit**: Net profit earned after accounting for costs and discounts.
-- **Region**, **State**, and **City**: Geographical details of sales.
-- **Category** and **Sub-Category**: Product classifications.
-- **Order Date**: Date when the order was placed.
+
+The dataset used for this project can be found [here](https://community.tableau.com/s/question/0D54T00000CWeX8SAL/sample-superstore-sales-excelxls). It contains the following key columns which have been used in this project:  
+- **Sales**: Revenue generated from product sales.  
+- **Quantity**: Number of units sold.  
+- **Discount**: Percentage discount applied to sales.  
+- **Profit**: Net profit earned after accounting for costs and discounts.  
+- **Region**, **State**, and **City**: Geographical details of sales.  
+- **Category** and **Sub-Category**: Product classifications.  
+- **Order Date**: Date when the order was placed.  
+- **Ship Mode**: Mode of shipping the order.
+- **Profit Margin**: Calculated as Profit/Sales.
+- **Cost**: Calculated as Sales - Profit.
 
 ## Steps Performed
 
@@ -34,27 +45,33 @@ Following key columns were used from Superstore sales dataset:
    - Transformed data by applying filters, calculated fields, and aggregations.
    - Loaded cleaned data into a suitable format for analysis.
 
-3. **Sales Analysis**:
+3. **Sales Analysis and Visualizations**:
    - **Overall Performance**: Analyzed total sales, profit, and profit margins over time.
+
+      ![overall_performance](overall_performance.png)
+
    - **Regional Insights**: Determined regional contributions to sales and profit; identified regions with low profit margins.
+
+      ![Regional Insights](regional_insights.png )   
+
    - **Product Analysis**: Identified profitable and non-profitable categories, subcategories, and top-performing products by sales and revenue.
 
-4. **Visualization**:
-   - Designed dashboards to display trends in sales, profit, and profit margins by year, month, region, and product.
-   - Created cascading slicers for interactive filtering by region, state, and city.
+      ![product_category_analysis](product_category_analysis.png)
 
-## Insights Gained
-- Overall Performance of the store
-   ![overall_performance](overall_performance.png)
+      ![product_analysis](product_analysis.png)
 
-- Regions contributing the most to overall sales and profits were identified along with regions having high sales but low-profit-margin.
-   ![Regional Insights](regional_insights.png )
+   - **Customer Segment Analysis**: Determined the customer segment generating the highest revenue based on timeline, category, and subcategory.
 
-- Categories and subcategories with the highest and lowest profitability were highlighted.
-   ![product_category_analysis](product_category_analysis.png)
-  
-- Top best selling products were pinpointed for further investigation.
-   ![product_analysis](product_analysis.png)
+      ![populat_customer_segments](populat_customer_segments.png)
+
+   - **Order Trends**: Analyzed order trends throughout the year based on different timelines.
+
+      ![order_trends](order_trends.png)
+
+   - **Shipping Mode Insights**: Identified the most popular shipping modes and their impact on profit margins, categorized by region and product category.
+
+      ![popular_shipping_mode](popular_shipping_mode.png)
+
 
 ## Tools and Technologies
 - **Power Query**: For building the ETL pipeline.
@@ -68,6 +85,5 @@ Following key columns were used from Superstore sales dataset:
 
 ---
 
-**Author**: Dhruv  
-**Date**: January 2025
+**Author**: Dhruv Limbani
 
