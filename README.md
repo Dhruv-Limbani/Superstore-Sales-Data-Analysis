@@ -48,29 +48,29 @@ The dataset used for this project can be found [here](https://community.tableau.
 3. **Sales Analysis and Visualizations**:
    - **Overall Performance**: Analyzed total sales, profit, and profit margins over time.
 
-      ![overall_performance](visualizations\overall_performance.png)
+      ![overall_performance](visualizations/overall_performance.png)
 
    - **Regional Insights**: Determined regional contributions to sales and profit; identified regions with low profit margins.
 
-      ![Regional Insights](visualizations\regional_insights.png )   
+      ![Regional Insights](visualizations/regional_insights.png )   
 
    - **Product Analysis**: Identified profitable and non-profitable categories, subcategories, and top-performing products by sales and revenue.
 
-      ![product_category_analysis](visualizations\product_category_analysis.png)
+      ![product_category_analysis](visualizations/product_category_analysis.png)
 
-      ![product_analysis](visualizations\product_analysis.png)
+      ![product_analysis](visualizations/product_analysis.png)
 
    - **Customer Segment Analysis**: Determined the customer segment generating the highest revenue based on timeline, category, and subcategory.
 
-      ![populat_customer_segments](visualizations\populat_customer_segments.png)
+      ![populat_customer_segments](visualizations/populat_customer_segments.png)
 
    - **Order Trends**: Analyzed order trends throughout the year based on different timelines.
 
-      ![order_trends](visualizations\order_trends.png)
+      ![order_trends](visualizations/order_trends.png)
 
    - **Shipping Mode Insights**: Identified the most popular shipping modes and their impact on profit margins, categorized by region and product category.
 
-      ![popular_shipping_mode](visualizations\popular_shipping_mode.png)
+      ![popular_shipping_mode](visualizations/popular_shipping_mode.png)
 
 
 ## Tools and Technologies
